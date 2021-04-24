@@ -1,0 +1,37 @@
+body {
+    background-color: #DE477A;
+}
+
+#sakura-cafe {
+    font-family: 'Kanit', monospace, serif;
+    text-shadow: 0px 0px .15em black;
+    text-align: center;
+    font-size: 84px;
+    color: white;
+    margin: 0px;
+}
+#japanese-restaurant {
+    font-family: "Yellowtail", monospace, serif;
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    text-shadow: 0px 0px .15em white;
+    margin: -20px 0px 0px 0px;
+}
+#hibachi-sushi {
+    font-family: "Merriweather", monospace, serif;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    text-shadow: 0px 0px .4em black;
+    bottom: 35px;
+    left: 260px;
+    transform: rotate(-15deg);
+}
+#dine-in-take-out {
+    /* list-style-image: url('/resources/img/sakura-flower.png'); */
+    font-family: "Merriweather", monospace, serif;
+    font-size: 20px;
+    color: white;
+}
