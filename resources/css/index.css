@@ -4,6 +4,7 @@ body {
 
 #sakura-cafe {
     font-family: 'Kanit', monospace, serif;
+    line-height: 100%;
     text-shadow: 0px 0px .15em black;
     text-align: center;
     font-size: 84px;
@@ -16,22 +17,56 @@ body {
     font-size: 48px;
     text-align: center;
     text-shadow: 0px 0px .15em white;
-    margin: -20px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 #hibachi-sushi {
+    margin-top: 10px;
+    margin-bottom: 20px;
     font-family: "Merriweather", monospace, serif;
     color: white;
     text-align: center;
+    font-weight: bolder;
     font-size: 20px;
     position: relative;
-    text-shadow: 0px 0px .4em black;
-    bottom: 35px;
-    left: 260px;
-    transform: rotate(-15deg);
+    text-shadow: 0px 0px .5em black;
 }
 #dine-in-take-out {
-    /* list-style-image: url('/resources/img/sakura-flower.png'); */
+    font-family: "Merriweather", monospace, serif;
+    font-size: 35px;
+    color: white;
+    width: 300px;
+    margin: auto;
+}
+
+#dining-list{
+    text-align: center;
+}
+
+#dine-in-take-out li {
+    display: inline-block;
+    list-style: none;
+    background-image: url('/resources/img/sakura-flower.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 35px;
+    padding-left: 50px;
+    margin-left: -50px;
+}
+
+#contact-info {
     font-family: "Merriweather", monospace, serif;
     font-size: 20px;
+    text-align: center;
     color: white;
+    margin-bottom: 80px;
+    white-space: nowrap;
+}
+
+#storefront-img {
+    display: block;
+    width: 70%;
+    box-shadow: 0px 0px 1em black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
 }
